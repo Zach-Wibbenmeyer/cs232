@@ -1,0 +1,221 @@
+Script started on Fri 17 Feb 2017 08:08:47 PM EST
+zdw3@cs-ssh:~/workspace/CS232/proj1$ ./prank[13@gcc prank.c -o prank
+zdw3@cs-ssh:~/workspace/CS232/proj1$ gcc prank.c -o prank[13P./prank
+
+cmdline args count = 1
+exe name = ./prank
+arg0 = ./prank
+
+This is an annoying message
+
+This is an annoying message
+
+This is an annoying message
+
+This is an annoying message
+
+This is an annoying message
+
+This is an annoying message
+
+This is an annoying message
+^C
+zdw3@cs-ssh:~/workspace/CS232/proj1$ ./prank +t 5 -i
+
+cmdline args count = 4
+exe name = ./prank
+arg0 = ./prank
+
+arg1 = +t
+
+arg2 = 5
+
+arg3 = -i
+
+This is an annoying message
+
+This is an annoying message
+
+This is an annoying message
+
+This is an annoying message
+^C
+zdw3@cs-ssh:~/workspace/CS232/proj1$ ./prank -i +t 1
+
+cmdline args count = 4
+exe name = ./prank
+arg0 = ./prank
+
+arg1 = -i
+
+arg2 = +t
+
+arg3 = 1
+
+This is an annoying message
+
+This is an annoying message
+
+This is an annoying message
+
+This is an annoying message
+
+This is an annoying message
+
+This is an annoying message
+
+This is an annoying message
+^C
+zdw3@cs-ssh:~/workspace/CS232/proj1$ ./prank -m Poopy +t 2 -i
+
+cmdline args count = 6
+exe name = ./prank
+arg0 = ./prank
+
+arg1 = -m
+
+arg2 = Poopy
+
+arg3 = +t
+
+arg4 = 2
+
+arg5 = -i
+Poopy
+Poopy
+Poopy
+Poopy
+Poopy
+Poopy
+Poopy
+Poopy
+^C
+zdw3@cs-ssh:~/workspace/CS232/proj1$ ./prank +t 1 -m Fart -i
+
+cmdline args count = 6
+exe name = ./prank
+arg0 = ./prank
+
+arg1 = +t
+
+arg2 = 1
+
+arg3 = -m
+
+arg4 = Fart
+
+arg5 = -i
+Fart
+Fart
+Fart
+Fart
+Fart
+Fart
+Fart
+Fart
+Fart
+^C
+zdw3@cs-ssh:~/workspace/CS232/proj1$ ./prank +i -m Nah +t 2
+
+cmdline args count = 6
+exe name = ./prank
+arg0 = ./prank
+
+arg1 = +i
+
+arg2 = -m
+
+arg3 = Nah
+
+arg4 = +t
+
+arg5 = 2
+Nah
+Nah
+Nah
+Nah
+^C
+Haha this doesn't work!!!
+Nah
+Nah
+Nah
+Nah
+^C
+Haha this doesn't work!!!
+Nah
+Nah
+^C
+Haha this doesn't work!!!
+Nah
+Nah
+^C
+Haha this doesn't work!!!
+^Z
+[1]+  Stopped                 ./prank +i -m Nah +t 2
+zdw3@cs-ssh:~/workspace/CS232/proj1$ ps
+  PID TTY          TIME CMD
+27578 pts/4    00:00:00 bash
+27669 pts/4    00:00:00 prank
+27688 pts/4    00:00:00 ps
+zdw3@cs-ssh:~/workspace/CS232/proj1$ kill 27669
+zdw3@cs-ssh:~/workspace/CS232/proj1$ ./prank -m Nahhh +t 1 +i
+
+cmdline args count = 6
+exe name = ./prank
+arg0 = ./prank
+
+arg1 = -m
+
+arg2 = Nahhh
+
+arg3 = +t
+
+arg4 = 1
+
+arg5 = +i
+Nahhh
+Nahhh
+Nahhh
+Nahhh
+Nahhh
+Nahhh
+Nahhh
+Nahhh
+Nahhh
+Nahhh
+^C
+Haha this doesn't work!!!
+Nahhh
+^C
+Haha this doesn't work!!!
+Nahhh
+Nahhh
+Nahhh
+Nahhh
+Nahhh
+Nahhh
+^C
+Haha this doesn't work!!!
+Nahhh
+Nahhh
+Nahhh
+Nahhh
+Nahhh
+Nahhh
+Nahhh
+^C
+Haha this doesn't work!!!
+Nahhh
+^Z
+[2]+  Stopped                 ./prank -m Nahhh +t 1 +i
+zdw3@cs-ssh:~/workspace/CS232/proj1$ ps
+  PID TTY          TIME CMD
+27578 pts/4    00:00:00 bash
+27669 pts/4    00:00:00 prank
+27695 pts/4    00:00:00 prank
+27712 pts/4    00:00:00 ps
+zdw3@cs-ssh:~/workspace/CS232/proj1$ exit
+There are stopped jobs.
+zdw3@cs-ssh:~/workspace/CS232/proj1$ exit
+
+Script done on Fri 17 Feb 2017 08:13:32 PM EST

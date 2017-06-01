@@ -1,0 +1,749 @@
+Script started on Thu 06 Apr 2017 02:26:54 PM EDT
+zdw3@babbage:~/workspace/CS232/proj4$ gcc bakeshop.c -o bakeshop -lpthrea d
+zdw3@babbage:~/workspace/CS232/proj4$ ./bakeshop
+---Creating customers---
+The baker is ready
+The baker has baked a single loaf of bread
+Customer [0] is trying to enter the store
+Customer [0] has entered the store
+Customer [0] is waiting for some bread
+Customer [0] has received the bread
+Customer [2] is trying to enter the store
+Customer [1] is trying to enter the store
+Customer [1] has entered the store
+Customer [2] has entered the store
+Customer [3] is trying to enter the store
+Customer [3] has entered the store
+Customer [4] is trying to enter the store
+Customer [4] has entered the store
+Customer [5] is trying to enter the store
+Customer [6] is trying to enter the store
+Customer [7] is trying to enter the store
+Customer [8] is trying to enter the store
+Customer [9] is trying to enter the store
+The baker has baked a single loaf of bread
+The baker has baked a single loaf of bread
+Customer [0] has paid
+Customer [0] is waiting to checkout
+The baker has printed a receipt for customer [0]
+The baker has baked a single loaf of bread
+Customer [0] has taken the receipt and left
+Customer [5] has entered the store
+Customer [1] is waiting for some bread
+Customer [1] has received the bread
+The baker has baked a single loaf of bread
+The baker has baked a single loaf of bread
+Customer [1] has paid
+Customer [1] is waiting to checkout
+The baker has printed a receipt for customer [1]
+Customer [1] has taken the receipt and left
+The baker has baked a single loaf of bread
+Customer [6] has entered the store
+Customer [2] is waiting for some bread
+Customer [2] has received the bread
+The baker has baked a single loaf of bread
+Customer [2] has paid
+The baker has baked a single loaf of bread
+Customer [2] is waiting to checkout
+The baker has printed a receipt for customer [2]
+The baker has baked a single loaf of bread
+Customer [2] has taken the receipt and left
+Customer [7] has entered the store
+Customer [3] is waiting for some bread
+Customer [3] has received the bread
+The baker is done baking loaves of bread.
+Customer [3] has paid
+Customer [3] is waiting to checkout
+The baker has printed a receipt for customer [3]
+Customer [3] has taken the receipt and left
+Customer [4] is waiting for some bread
+Customer [4] has received the bread
+Customer [8] has entered the store
+Customer [4] has paid
+Customer [4] is waiting to checkout
+The baker has printed a receipt for customer [4]
+Customer [4] has taken the receipt and left
+Customer [9] has entered the store
+Customer [5] is waiting for some bread
+Customer [5] has received the bread
+Customer [5] has paid
+Customer [5] is waiting to checkout
+The baker has printed a receipt for customer [5]
+Customer [5] has taken the receipt and left
+Customer [6] is waiting for some bread
+Customer [6] has received the bread
+Customer [6] has paid
+Customer [6] is waiting to checkout
+The baker has printed a receipt for customer [6]
+Customer [6] has taken the receipt and left
+Customer [7] is waiting for some bread
+Customer [7] has received the bread
+Customer [7] has paid
+Customer [7] is waiting to checkout
+The baker has printed a receipt for customer [7]
+Customer [7] has taken the receipt and left
+Customer [8] is waiting for some bread
+Customer [8] has received the bread
+Customer [8] has paid
+Customer [8] is waiting to checkout
+The baker has printed a receipt for customer [8]
+Customer [8] has taken the receipt and left
+Customer [9] is waiting for some bread
+Customer [9] has received the bread
+Customer [9] has paid
+Customer [9] is waiting to checkout
+The baker has printed a receipt for customer [9]
+Customer [9] has taken the receipt and left
+zdw3@babbage:~/workspace/CS232/proj4$ ./bakeshop
+---Creating customers---
+The baker is ready
+The baker has baked a single loaf of bread
+Customer [0] is trying to enter the store
+Customer [0] has entered the store
+Customer [0] is waiting for some bread
+Customer [0] has received the bread
+Customer [2] is trying to enter the store
+Customer [2] has entered the store
+Customer [3] is trying to enter the store
+Customer [3] has entered the store
+Customer [4] is trying to enter the store
+Customer [4] has entered the store
+Customer [1] is trying to enter the store
+Customer [1] has entered the store
+Customer [5] is trying to enter the store
+Customer [7] is trying to enter the store
+Customer [6] is trying to enter the store
+Customer [9] is trying to enter the store
+Customer [8] is trying to enter the store
+The baker has baked a single loaf of bread
+Customer [0] has paid
+The baker has baked a single loaf of bread
+Customer [0] is waiting to checkout
+The baker has printed a receipt for customer [0]
+Customer [0] has taken the receipt and left
+The baker has baked a single loaf of bread
+Customer [5] has entered the store
+Customer [2] is waiting for some bread
+Customer [2] has received the bread
+The baker has baked a single loaf of bread
+Customer [2] has paid
+Customer [2] is waiting to checkout
+The baker has printed a receipt for customer [2]
+Customer [2] has taken the receipt and left
+The baker has baked a single loaf of bread
+Customer [3] is waiting for some bread
+Customer [3] has received the bread
+Customer [7] has entered the store
+The baker has baked a single loaf of bread
+Customer [3] has paid
+Customer [3] is waiting to checkout
+The baker has printed a receipt for customer [3]
+The baker has baked a single loaf of bread
+Customer [3] has taken the receipt and left
+Customer [4] is waiting for some bread
+Customer [4] has received the bread
+Customer [6] has entered the store
+The baker has baked a single loaf of bread
+Customer [4] has paid
+Customer [4] is waiting to checkout
+The baker has printed a receipt for customer [4]
+The baker has baked a single loaf of bread
+Customer [4] has taken the receipt and left
+Customer [9] has entered the store
+Customer [9] is waiting for some bread
+Customer [9] has received the bread
+The baker is done baking loaves of bread.
+Customer [9] has paid
+Customer [9] is waiting to checkout
+The baker has printed a receipt for customer [9]
+Customer [9] has taken the receipt and left
+Customer [5] is waiting for some bread
+Customer [5] has received the bread
+Customer [8] has entered the store
+Customer [5] has paid
+Customer [5] is waiting to checkout
+The baker has printed a receipt for customer [5]
+Customer [5] has taken the receipt and left
+Customer [7] is waiting for some bread
+Customer [7] has received the bread
+Customer [7] has paid
+Customer [7] is waiting to checkout
+The baker has printed a receipt for customer [7]
+Customer [7] has taken the receipt and left
+Customer [6] is waiting for some bread
+Customer [6] has received the bread
+Customer [6] has paid
+Customer [6] is waiting to checkout
+The baker has printed a receipt for customer [6]
+Customer [6] has taken the receipt and left
+Customer [1] is waiting for some bread
+Customer [1] has received the bread
+Customer [1] has paid
+Customer [1] is waiting to checkout
+The baker has printed a receipt for customer [1]
+Customer [1] has taken the receipt and left
+Customer [8] is waiting for some bread
+Customer [8] has received the bread
+Customer [8] has paid
+Customer [8] is waiting to checkout
+The baker has printed a receipt for customer [8]
+Customer [8] has taken the receipt and left
+zdw3@babbage:~/workspace/CS232/proj4$ cat bakeshop.c
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <pthread.h>
+#include <unistd.h>
+#include <stdbool.h>
+#include <sys/syscall.h>
+#include <semaphore.h>
+
+// baker is either baking or is at the cash register
+sem_t bakerSem;
+
+// only 5 people allowed in the store at a time
+sem_t storeSem;
+
+//only admits one customer at a time
+sem_t custSem;
+
+// 10 threads used for customers
+pthread_t customerThread[10];
+
+int customers = 0;
+int customerWaiting = -1;
+int checkouts = 0;
+int breadBaked = 0;
+int breadAvailable = 0;
+
+
+/*
+ * getCustomers() - returns the number of customers
+ * @param: None
+ * @return: an int
+ */
+int getCustomers() {
+    pthread_t id = pthread_self();
+    int i;
+    for (i = 0; i < 10; i++) {
+        if (pthread_equal(id, customerThread[i])) {
+            return i;
+        }
+    }
+    return -1;
+}
+
+/*
+ * *bakerCheckout() - allows the customer to checkout and makes sure the baker is only baking
+ *						one loaf of bread
+ * @param: *arg (type -> void)
+ * @return: Nothing
+ */
+void *bakerCheckout(void *arg) {
+    while (checkouts < 10) {
+        while (customerWaiting == -1 ) {
+                sleep(0.1);
+        }
+        printf("Customer [%d] is waiting to checkout\n", customerWaiting);
+        sem_wait(&bakerSem);
+        sleep(1);
+        printf("The baker has printed a receipt for customer [%d]\n", customerWaiting);
+        customerWaiting = -1;
+        checkouts++;
+        sem_post(&bakerSem);
+    }
+}
+
+/*
+ * *customerActions() - main actions the customer performs
+ * @param: *arg (type -> void)
+ * @return: Nothing
+ */
+void *customerActions(void *arg)
+{
+    printf("Customer [%d] is trying to enter the store\n", getCustomers());
+    sem_wait(&storeSem);
+    printf("Customer [%d] has entered the store\n", getCustomers());
+
+    sem_wait(&custSem);
+
+    // request the bread
+    printf("Customer [%d] is waiting for some bread\n", getCustomers());
+    while(breadAvailable == 0) {
+      	sleep(0.1); //sleep, check again
+    }
+
+    breadAvailable--;
+    printf("Customer [%d] has received the bread\n", getCustomers());
+    sleep(2);
+    
+    // the customer pays
+    int waitNum = checkouts + 1;
+    printf("Customer [%d] has paid\n", getCustomers());
+    customerWaiting = getCustomers();
+
+    while (customerWaiting != -1) {
+        sleep(0.1);
+    }
+    printf("Customer [%d] has taken the receipt and left\n", getCustomers());
+    customers--;
+    sem_post(&custSem);
+    sem_post(&storeSem);
+    return NULL;
+}
+
+/*
+ * *bakeBread() - Process for the baker to bake bread
+ * @param: None
+ * @return: Nothing
+ */
+void *bakeBread() {
+    printf("The baker is ready\n");
+    while (breadBaked != 10) {
+        sem_wait(&bakerSem);
+        breadAvailable++;
+	      breadBaked++;
+        printf("The baker has baked a single loaf of bread\n");
+        sem_post(&bakerSem);
+        sleep(1);
+    }
+    printf("The baker is done baking loaves of bread.\n");
+}
+
+/* Initialize semaphores */
+void initialize() {
+    sem_init(&custSem, 0, 1);
+    sem_init(&bakerSem, 0, 1);
+    sem_init(&storeSem, 0, 5);
+}
+
+// main program
+int main()
+{
+    initialize();
+    printf("---Creating customers---\n");
+    pthread_t bakeBreadId;
+    pthread_t checkoutId;
+    pthread_create(&bakeBreadId, NULL, bakeBread, NULL);
+    pthread_create(&checkoutId, NULL, bakerCheckout, NULL);
+    int i;
+    for (i = 0; i < 10; i++) {
+        customers++;
+        pthread_create(&customerThread[i], NULL, customerActions, NULL);
+    }
+    pthread_exit(NULL);
+    printf("---All customers have left the store---\n");
+    exit(0);
+}zdw3@babbage:~/workspace/CS232/proj4$ ^C
+zdw3@babbage:~/workspace/CS232/proj4$ scr   sc  sc  sc  script      script      script script
+Script started, file is script
+zdw3@babbage:~/workspace/CS232/proj4$ gcc bakeshop.c -o bakeshop -lpthrea d
+zdw3@babbage:~/workspace/CS232/proj4$ ./bakeshop
+---Creating customers---
+The baker is ready
+The baker has baked a single loaf of bread
+Customer [0] is trying to enter the store
+Customer [0] has entered the store
+Customer [0] is waiting for some bread
+Customer [0] has received the bread
+Customer [1] is trying to enter the store
+Customer [1] has entered the store
+Customer [2] is trying to enter the store
+Customer [2] has entered the store
+Customer [3] is trying to enter the store
+Customer [3] has entered the store
+Customer [4] is trying to enter the store
+Customer [4] has entered the store
+Customer [5] is trying to enter the store
+Customer [6] is trying to enter the store
+Customer [7] is trying to enter the store
+Customer [8] is trying to enter the store
+Customer [9] is trying to enter the store
+The baker has baked a single loaf of bread
+Customer [0] has paid
+The baker has baked a single loaf of bread
+Customer [0] is waiting to checkout
+The baker has printed a receipt for customer [0]
+The baker has baked a single loaf of bread
+Customer [0] has taken the receipt and left
+Customer [1] is waiting for some bread
+Customer [1] has received the bread
+Customer [5] has entered the store
+The baker has baked a single loaf of bread
+The baker has baked a single loaf of bread
+Customer [1] has paid
+Customer [1] is waiting to checkout
+The baker has printed a receipt for customer [1]
+Customer [1] has taken the receipt and left
+The baker has baked a single loaf of bread
+Customer [2] is waiting for some bread
+Customer [2] has received the bread
+Customer [6] has entered the store
+The baker has baked a single loaf of bread
+Customer [2] has paid
+The baker has baked a single loaf of bread
+Customer [2] is waiting to checkout
+The baker has printed a receipt for customer [2]
+The baker has baked a single loaf of bread
+Customer [2] has taken the receipt and left
+Customer [3] is waiting for some bread
+Customer [3] has received the bread
+Customer [7] has entered the store
+The baker is done baking loaves of bread.
+Customer [3] has paid
+Customer [3] is waiting to checkout
+The baker has printed a receipt for customer [3]
+Customer [3] has taken the receipt and left
+Customer [4] is waiting for some bread
+Customer [4] has received the bread
+Customer [8] has entered the store
+Customer [4] has paid
+Customer [4] is waiting to checkout
+The baker has printed a receipt for customer [4]
+Customer [4] has taken the receipt and left
+Customer [5] is waiting for some bread
+Customer [5] has received the bread
+Customer [9] has entered the store
+Customer [5] has paid
+Customer [5] is waiting to checkout
+The baker has printed a receipt for customer [5]
+Customer [5] has taken the receipt and left
+Customer [6] is waiting for some bread
+Customer [6] has received the bread
+Customer [6] has paid
+Customer [6] is waiting to checkout
+The baker has printed a receipt for customer [6]
+Customer [6] has taken the receipt and left
+Customer [7] is waiting for some bread
+Customer [7] has received the bread
+Customer [7] has paid
+Customer [7] is waiting to checkout
+The baker has printed a receipt for customer [7]
+Customer [7] has taken the receipt and left
+Customer [8] is waiting for some bread
+Customer [8] has received the bread
+Customer [8] has paid
+Customer [8] is waiting to checkout
+The baker has printed a receipt for customer [8]
+Customer [8] has taken the receipt and left
+Customer [9] is waiting for some bread
+Customer [9] has received the bread
+Customer [9] has paid
+Customer [9] is waiting to checkout
+The baker has printed a receipt for customer [9]
+Customer [9] has taken the receipt and left
+zdw3@babbage:~/workspace/CS232/proj4$ ./bakeshop
+---Creating customers---
+The baker is ready
+The baker has baked a single loaf of bread
+Customer [0] is trying to enter the store
+Customer [0] has entered the store
+Customer [0] is waiting for some bread
+Customer [0] has received the bread
+Customer [1] is trying to enter the store
+Customer [1] has entered the store
+Customer [2] is trying to enter the store
+Customer [2] has entered the store
+Customer [3] is trying to enter the store
+Customer [3] has entered the store
+Customer [4] is trying to enter the store
+Customer [4] has entered the store
+Customer [5] is trying to enter the store
+Customer [6] is trying to enter the store
+Customer [7] is trying to enter the store
+Customer [8] is trying to enter the store
+Customer [9] is trying to enter the store
+The baker has baked a single loaf of bread
+Customer [0] has paid
+Customer [0] is waiting to checkout
+The baker has printed a receipt for customer [0]
+The baker has baked a single loaf of bread
+Customer [0] has taken the receipt and left
+Customer [1] is waiting for some bread
+Customer [1] has received the bread
+Customer [5] has entered the store
+The baker has baked a single loaf of bread
+Customer [1] has paid
+The baker has baked a single loaf of bread
+Customer [1] is waiting to checkout
+The baker has printed a receipt for customer [1]
+The baker has baked a single loaf of bread
+Customer [1] has taken the receipt and left
+Customer [6] has entered the store
+Customer [6] is waiting for some bread
+Customer [6] has received the bread
+The baker has baked a single loaf of bread
+Customer [6] has paid
+Customer [6] is waiting to checkout
+The baker has printed a receipt for customer [6]
+The baker has baked a single loaf of bread
+Customer [6] has taken the receipt and left
+Customer [7] has entered the store
+Customer [3] is waiting for some bread
+Customer [3] has received the bread
+The baker has baked a single loaf of bread
+The baker has baked a single loaf of bread
+Customer [3] has paid
+Customer [3] is waiting to checkout
+The baker is done baking loaves of bread.
+The baker has printed a receipt for customer [3]
+Customer [3] has taken the receipt and left
+Customer [4] is waiting for some bread
+Customer [4] has received the bread
+Customer [8] has entered the store
+Customer [4] has paid
+Customer [4] is waiting to checkout
+The baker has printed a receipt for customer [4]
+Customer [4] has taken the receipt and left
+Customer [5] is waiting for some bread
+Customer [5] has received the bread
+Customer [9] has entered the store
+Customer [5] has paid
+Customer [5] is waiting to checkout
+The baker has printed a receipt for customer [5]
+Customer [5] has taken the receipt and left
+Customer [2] is waiting for some bread
+Customer [2] has received the bread
+Customer [2] has paid
+Customer [2] is waiting to checkout
+The baker has printed a receipt for customer [2]
+Customer [2] has taken the receipt and left
+Customer [7] is waiting for some bread
+Customer [7] has received the bread
+Customer [7] has paid
+Customer [7] is waiting to checkout
+The baker has printed a receipt for customer [7]
+Customer [7] has taken the receipt and left
+Customer [8] is waiting for some bread
+Customer [8] has received the bread
+Customer [8] has paid
+Customer [8] is waiting to checkout
+The baker has printed a receipt for customer [8]
+Customer [8] has taken the receipt and left
+Customer [9] is waiting for some bread
+Customer [9] has received the bread
+Customer [9] has paid
+Customer [9] is waiting to checkout
+The baker has printed a receipt for customer [9]
+Customer [9] has taken the receipt and left
+zdw3@babbage:~/workspace/CS232/proj4$ ^C
+zdw3@babbage:~/workspace/CS232/proj4$ s exit
+Script done, file is script
+zdw3@babbage:~/workspace/CS232/proj4$ cat   cat ty  script
+Script started on Thu 06 Apr 2017 02:29:29 PM EDT
+zdw3@babbage:~/workspace/CS232/proj4$ gcc bakeshop.c -o bakeshop -lpthrea d
+zdw3@babbage:~/workspace/CS232/proj4$ ./bakeshop
+---Creating customers---
+The baker is ready
+The baker has baked a single loaf of bread
+Customer [0] is trying to enter the store
+Customer [0] has entered the store
+Customer [0] is waiting for some bread
+Customer [0] has received the bread
+Customer [1] is trying to enter the store
+Customer [1] has entered the store
+Customer [2] is trying to enter the store
+Customer [2] has entered the store
+Customer [3] is trying to enter the store
+Customer [3] has entered the store
+Customer [4] is trying to enter the store
+Customer [4] has entered the store
+Customer [5] is trying to enter the store
+Customer [6] is trying to enter the store
+Customer [7] is trying to enter the store
+Customer [8] is trying to enter the store
+Customer [9] is trying to enter the store
+The baker has baked a single loaf of bread
+Customer [0] has paid
+The baker has baked a single loaf of bread
+Customer [0] is waiting to checkout
+The baker has printed a receipt for customer [0]
+The baker has baked a single loaf of bread
+Customer [0] has taken the receipt and left
+Customer [1] is waiting for some bread
+Customer [1] has received the bread
+Customer [5] has entered the store
+The baker has baked a single loaf of bread
+The baker has baked a single loaf of bread
+Customer [1] has paid
+Customer [1] is waiting to checkout
+The baker has printed a receipt for customer [1]
+Customer [1] has taken the receipt and left
+The baker has baked a single loaf of bread
+Customer [2] is waiting for some bread
+Customer [2] has received the bread
+Customer [6] has entered the store
+The baker has baked a single loaf of bread
+Customer [2] has paid
+The baker has baked a single loaf of bread
+Customer [2] is waiting to checkout
+The baker has printed a receipt for customer [2]
+The baker has baked a single loaf of bread
+Customer [2] has taken the receipt and left
+Customer [3] is waiting for some bread
+Customer [3] has received the bread
+Customer [7] has entered the store
+The baker is done baking loaves of bread.
+Customer [3] has paid
+Customer [3] is waiting to checkout
+The baker has printed a receipt for customer [3]
+Customer [3] has taken the receipt and left
+Customer [4] is waiting for some bread
+Customer [4] has received the bread
+Customer [8] has entered the store
+Customer [4] has paid
+Customer [4] is waiting to checkout
+The baker has printed a receipt for customer [4]
+Customer [4] has taken the receipt and left
+Customer [5] is waiting for some bread
+Customer [5] has received the bread
+Customer [9] has entered the store
+Customer [5] has paid
+Customer [5] is waiting to checkout
+The baker has printed a receipt for customer [5]
+Customer [5] has taken the receipt and left
+Customer [6] is waiting for some bread
+Customer [6] has received the bread
+Customer [6] has paid
+Customer [6] is waiting to checkout
+The baker has printed a receipt for customer [6]
+Customer [6] has taken the receipt and left
+Customer [7] is waiting for some bread
+Customer [7] has received the bread
+Customer [7] has paid
+Customer [7] is waiting to checkout
+The baker has printed a receipt for customer [7]
+Customer [7] has taken the receipt and left
+Customer [8] is waiting for some bread
+Customer [8] has received the bread
+Customer [8] has paid
+Customer [8] is waiting to checkout
+The baker has printed a receipt for customer [8]
+Customer [8] has taken the receipt and left
+Customer [9] is waiting for some bread
+Customer [9] has received the bread
+Customer [9] has paid
+Customer [9] is waiting to checkout
+The baker has printed a receipt for customer [9]
+Customer [9] has taken the receipt and left
+zdw3@babbage:~/workspace/CS232/proj4$ ./bakeshop
+---Creating customers---
+The baker is ready
+The baker has baked a single loaf of bread
+Customer [0] is trying to enter the store
+Customer [0] has entered the store
+Customer [0] is waiting for some bread
+Customer [0] has received the bread
+Customer [1] is trying to enter the store
+Customer [1] has entered the store
+Customer [2] is trying to enter the store
+Customer [2] has entered the store
+Customer [3] is trying to enter the store
+Customer [3] has entered the store
+Customer [4] is trying to enter the store
+Customer [4] has entered the store
+Customer [5] is trying to enter the store
+Customer [6] is trying to enter the store
+Customer [7] is trying to enter the store
+Customer [8] is trying to enter the store
+Customer [9] is trying to enter the store
+The baker has baked a single loaf of bread
+Customer [0] has paid
+Customer [0] is waiting to checkout
+The baker has printed a receipt for customer [0]
+The baker has baked a single loaf of bread
+Customer [0] has taken the receipt and left
+Customer [1] is waiting for some bread
+Customer [1] has received the bread
+Customer [5] has entered the store
+The baker has baked a single loaf of bread
+Customer [1] has paid
+The baker has baked a single loaf of bread
+Customer [1] is waiting to checkout
+The baker has printed a receipt for customer [1]
+The baker has baked a single loaf of bread
+Customer [1] has taken the receipt and left
+Customer [6] has entered the store
+Customer [6] is waiting for some bread
+Customer [6] has received the bread
+The baker has baked a single loaf of bread
+Customer [6] has paid
+Customer [6] is waiting to checkout
+The baker has printed a receipt for customer [6]
+The baker has baked a single loaf of bread
+Customer [6] has taken the receipt and left
+Customer [7] has entered the store
+Customer [3] is waiting for some bread
+Customer [3] has received the bread
+The baker has baked a single loaf of bread
+The baker has baked a single loaf of bread
+Customer [3] has paid
+Customer [3] is waiting to checkout
+The baker is done baking loaves of bread.
+The baker has printed a receipt for customer [3]
+Customer [3] has taken the receipt and left
+Customer [4] is waiting for some bread
+Customer [4] has received the bread
+Customer [8] has entered the store
+Customer [4] has paid
+Customer [4] is waiting to checkout
+The baker has printed a receipt for customer [4]
+Customer [4] has taken the receipt and left
+Customer [5] is waiting for some bread
+Customer [5] has received the bread
+Customer [9] has entered the store
+Customer [5] has paid
+Customer [5] is waiting to checkout
+The baker has printed a receipt for customer [5]
+Customer [5] has taken the receipt and left
+Customer [2] is waiting for some bread
+Customer [2] has received the bread
+Customer [2] has paid
+Customer [2] is waiting to checkout
+The baker has printed a receipt for customer [2]
+Customer [2] has taken the receipt and left
+Customer [7] is waiting for some bread
+Customer [7] has received the bread
+Customer [7] has paid
+Customer [7] is waiting to checkout
+The baker has printed a receipt for customer [7]
+Customer [7] has taken the receipt and left
+Customer [8] is waiting for some bread
+Customer [8] has received the bread
+Customer [8] has paid
+Customer [8] is waiting to checkout
+The baker has printed a receipt for customer [8]
+Customer [8] has taken the receipt and left
+Customer [9] is waiting for some bread
+Customer [9] has received the bread
+Customer [9] has paid
+Customer [9] is waiting to checkout
+The baker has printed a receipt for customer [9]
+Customer [9] has taken the receipt and left
+zdw3@babbage:~/workspace/CS232/proj4$ ^C
+zdw3@babbage:~/workspace/CS232/proj4$ s exit
+
+Script done on Thu 06 Apr 2017 02:31:12 PM EDT
+zdw3@babbage:~/workspace/CS232/proj4$ [H[2Jzdw3@babbage:~/workspace/CS232/proj4$ asdf    asdf    wo  working out for each other                            working otu           working otu   out for e                 ls
+answers.txt  bakeshop  bakeshop.c  script
+zdw3@babbage:~/workspace/CS232/proj4$ cd  cd  cd  cd  cd  cd  cd  cd  cd  cd ..
+zdw3@babbage:~/workspace/CS232$ ls
+proj1  proj2  proj3  proj4
+zdw3@babbage:~/workspace/CS232$ cp  cp  cp -r     cp -r proj4 /home/cs/232/current/zd  zdw3/      /zdw3/
+zdw3@babbage:~/workspace/CS232$ ls  ls -l pr    /home/cs/232/current/zdw3/
+total 20
+drwxrwsr-x 2 admin 17sp-cs232-graders 4096 Mar  7 15:47 Grades
+drwxrwx--- 2 zdw3  17sp-cs232-graders 4096 Feb 17 20:20 proj1
+drwxrwx--- 2 zdw3  17sp-cs232-graders 4096 Feb 27 20:55 proj2
+drwxrwx--- 3 zdw3  17sp-cs232-graders 4096 Mar 15 22:11 proj3
+drwxrwx--- 2 zdw3  17sp-cs232-graders 4096 Apr  6 14:33 proj4
+zdw3@babbage:~/workspace/CS232$ h ls -l /home/cs/232/current/zd3   zdw3/proj4
+total 32
+-rw-rw-r-- 1 zdw3 17sp-cs232-graders   504 Apr  6 14:33 answers.txt
+-rwxrwxr-x 1 zdw3 17sp-cs232-graders 13704 Apr  6 14:33 bakeshop
+-rw-rw-r-- 1 zdw3 17sp-cs232-graders  3591 Apr  6 14:33 bakeshop.c
+-rw-rw-r-- 1 zdw3 17sp-cs232-graders  7646 Apr  6 14:33 script
+zdw3@babbage:~/workspace/CS232$ ex  exit
+exit
+
+Script done on Thu 06 Apr 2017 02:33:50 PM EDT

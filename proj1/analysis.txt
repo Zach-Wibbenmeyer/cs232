@@ -1,0 +1,72 @@
+/**********************************************************
+ * Zach Wibbenmeyer                                       *
+ * Professor Norman                                       *
+ * CS232 - project 1, part 2                              *
+ **********************************************************/
+
+
+
+execve("./prank", ["./prank"], [/* 19 vars */]) = 0
+brk(0)                                  = 0x12cc000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f673baa8000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=63012, ...}) = 0
+mmap(NULL, 63012, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f673ba98000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P \2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1840928, ...}) = 0
+mmap(NULL, 3949248, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f673b4c3000
+mprotect(0x7f673b67d000, 2097152, PROT_NONE) = 0
+mmap(0x7f673b87d000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1ba000) = 0x7f673b87d000
+mmap(0x7f673b883000, 17088, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f673b883000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f673ba97000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f673ba95000
+arch_prctl(ARCH_SET_FS, 0x7f673ba95740) = 0
+mprotect(0x7f673b87d000, 16384, PROT_READ) = 0
+mprotect(0x600000, 4096, PROT_READ)     = 0
+mprotect(0x7f673baaa000, 4096, PROT_READ) = 0
+munmap(0x7f673ba98000, 63012)           = 0
+fstat(1, {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 2), ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f673baa7000
+write(1, "\n", 1
+)                       = 1
+write(1, "cmdline args count = 1\n", 23cmdline args count = 1
+) = 23
+write(1, "exe name = ./prank\n", 19exe name = ./prank
+)    = 19
+write(1, "arg0 = ./prank\n", 15arg0 = ./prank
+)        = 15
+rt_sigaction(SIGALRM, {0x4006dd, [ALRM], SA_RESTORER|SA_RESTART, 0x7f673b4f9cb0}, {SIG_DFL, [], 0}, 8) = 0
+alarm(5)                                = 0
+pause()                                 = ? ERESTARTNOHAND (To be restarted if no handler)
+--- SIGALRM {si_signo=SIGALRM, si_code=SI_KERNEL} ---
+write(1, "\n", 1
+)                       = 1
+write(1, "This is an annoying message\n", 28This is an annoying message
+) = 28
+alarm(5)                                = 0
+rt_sigreturn()
+
+SYSTEM CALLS
+
+brk() - changes the location of the program break, which defines the end of the processes's data segment.
+        sets the end of the data segment to the value specified by addr, when that value is reasonable, the system
+        has enough memory, and the process does not exceed its maximum data size.
+
+fstat() - Returns information on a file. Stats the file pointed to by path and fills in buf,
+          except that the file to be stated is specified by the file descriptor fd.
+
+mmap() - Creates a new mapping in the virtual address space of the calling process. The starting address for
+          the new mapping is specified in addr. The length argument specifies the length of the mapping.
+
+mprotect() - Changes protection for the calling process's memory page(s) containing any part of the address range
+            in the interval [addr, addr+len-1]. addr must be aligned to a page boundary. If the calling process tries
+            to access memory in a manner that violates the protection, then the kernel generates SIGSEGV signal for the process.
+
+arch_prctl() - Sets architecture-specific process or thread state. Code selects a subfunction and passes argument addr to it;
+              addr is interpreted as either as unsigned long for the "set" operations, or as an unsigned long *, for the "get" operations.

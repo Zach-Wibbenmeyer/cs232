@@ -1,0 +1,173 @@
+Script started on Mon 27 Feb 2017 08:52:49 PM EST
+zdw3@hopper:~/workspace/CS232/proj2$ sh main.sh
+
+vonneumann
+Machine is running GNU/LINUX
+The users on vonneumann are kpb23 kpb23 kpb23 # users=3
+
+dijkstra
+Machine is running GNU/LINUX
+The users on dijkstra are dmv34 dmv34 # users=2
+
+goldberg
+Machine is running GNU/LINUX
+The users on goldberg are jco4 # users=1
+
+kay
+Machine is running GNU/LINUX
+No users are logged on
+
+hopper
+Machine is running GNU/LINUX
+The users on hopper are mkk9 mkk9 zdw3 # users=3
+
+ritchie
+Machine is running GNU/LINUX
+The users on ritchie are sv42 # users=1
+
+chomsky
+Machine is running GNU/LINUX
+No users are logged on
+
+aiken
+Machine is running GNU/LINUX
+The users on aiken are pno2 pno2 pno2 pno2 # users=4
+
+boole
+Machine is running GNU/LINUX
+The users on boole are asm9 asm9 # users=2
+
+hollerith
+Machine is running GNU/LINUX
+The users on hollerith are bmg23 # users=1
+
+sutherland
+Machine is running GNU/LINUX
+The users on sutherland are cbd6 # users=1
+
+leibniz
+Machine is running GNU/LINUX
+The users on leibniz are krj22 # users=1
+
+wirth
+Machine is running GNU/LINUX
+The users on wirth are yk47 yk47 # users=2
+
+turing
+Machine is running GNU/LINUX
+The users on turing are qmb2 # users=1
+
+eckert-mauchly
+Machine is running GNU/LINUX
+The users on eckert-mauchly are fdn2 fdn2 # users=2
+
+babbage
+Machine is running GNU/LINUX
+The users on babbage are wjo2 # users=1
+
+zuse
+Machine is running GNU/LINUX
+The users on zuse are mjb88 # users=1
+
+hoare
+Machine is running GNU/LINUX
+The users on hoare are zah3 # users=1
+
+kernighan
+Machine is running GNU/LINUX
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:MZarheuwoY4+1AjTlkKotl0aixtrYFlNR+k7bZ1gkCA.
+Please contact your system administrator.
+Add correct host key in /home/zdw3/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/zdw3/.ssh/known_hosts:15
+  remove with:
+  ssh-keygen -f "/home/zdw3/.ssh/known_hosts" -R kernighan
+RSA host key for kernighan has changed and you have requested strict checking.
+Host key verification failed.
+The users on kernighan are
+
+stroustrup
+Machine is running GNU/LINUX
+No users are logged on
+
+atanasoff
+Machine is running GNU/LINUX
+The users on atanasoff are anq3 anq3 # users=2
+
+knuth
+Machine is turned OFF
+
+torvalds
+Machine is running GNU/LINUX
+The users on torvalds are krt22 # users=1
+
+wall
+Machine is running GNU/LINUX
+The users on wall are jch32 # users=1
+
+thompson
+Machine is running GNU/LINUX
+The users on thompson are yc38 # users=1
+
+englebart
+Machine is turned OFF
+
+backus-naur
+Machine is running GNU/LINUX
+No users are logged on
+
+taylor
+Machine is running GNU/LINUX
+The users on taylor are isa3 # users=1
+
+wilkes
+Machine is running GNU/LINUX
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:mueF8MX68InHHb99mETqt5PhH4C6O8B6seLSfbMtNSs.
+Please contact your system administrator.
+Add correct host key in /home/zdw3/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/zdw3/.ssh/known_hosts:13
+  remove with:
+  ssh-keygen -f "/home/zdw3/.ssh/known_hosts" -R wilkes
+RSA host key for wilkes has changed and you have requested strict checking.
+Host key verification failed.
+The users on wilkes are
+
+noyce-kilby
+Machine is running GNU/LINUX
+No users are logged on
+
+hillis
+Machine is running GNU/LINUX
+No users are logged on
+
+codd
+Machine is running GNU/LINUX
+No users are logged on
+
+augusta
+Machine is running GNU/LINUX
+The users on augusta are so37 # users=1
+
+church
+Machine is running GNU/LINUX
+The users on church are mtk7 # users=1
+
+stallman
+Machine is running GNU/LINUX
+No users are logged on
+zdw3@hopper:~/workspace/CS232/proj2$ exit
+
+Script done on Mon 27 Feb 2017 08:53:27 PM EST

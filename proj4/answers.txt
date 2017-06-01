@@ -1,0 +1,7 @@
+1. Does your program run the same way each time? Why?
+
+No, because the threads are in race conditions, Meaning they will run differently each time the program is executed.
+
+2. Give your last customer thread the highest priority. Does this ensure that this customer is always given first priority? Why or why not?
+
+No, it does not. This is because higher priority threads can wait behind a lower priority thread if the lower thread holds a lock or sempahore that the higher priority thread is waiting for.
